@@ -1,0 +1,8 @@
+.gallery {display: grid;grid-template-columns: repeat(5, 1fr);gap: 10px;}
+.gallery img {width: 100% !important;height: 200px !important;object-fit: cover;}
+.media{display: grid;grid-temlate-columns: 1fr 1fr;gap: 20px;display: block;}
+.anh img{width: 100%;margin-bottom: 10px;}
+.video video{width: 100%;height: auto;}
+.goc-anh-video {display: flex;justify-content: center;align-items: center;gap: 1px;}
+.goc-anh img {width: 100%;}
+.goc-video video {width: 100%}
